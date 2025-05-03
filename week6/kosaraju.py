@@ -52,11 +52,11 @@ class Graph:
         stack.append(v)
 
 # Example Usage
-g = Graph(5)
-g.add_edge(1, 0)
-g.add_edge(0, 2)
-g.add_edge(2, 1)
-g.add_edge(0, 3)
-g.add_edge(3, 4)
+g1 = Graph(5)
+g1.add_edge(1, 0)
+g1.add_edge(0, 2)
+g1.add_edge(2, 1)
+g1.add_edge(0, 3)
+g1.add_edge(3, 4)
 
-g.print_sccs()
+g1.print_sccs()
